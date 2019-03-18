@@ -126,6 +126,4 @@ var elements = document.querySelectorAll('select-items div');
 console.log(elements);
 
 
-for (let element of elements) {
 
-}
