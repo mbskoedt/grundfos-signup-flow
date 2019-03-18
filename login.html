@@ -1,115 +1,118 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="da">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grundfos Login</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
+  <!-- HEADER -->
 
-    <div class="top-bar">
-        <img src="image/grundfos_logo_hvid.png" alt="Gundfos logo hvid" class="logo">
+  <div class="top-bar">
+    <img src="image/grundfos_logo_hvid.png" alt="Gundfos logo hvid" class="logo">
+  </div>
+
+
+
+  <!-- SLIDESHOW -->
+  <div class="over-container">
+    <div class="opacity-container"></div>
+    <div class="slideshow-container">
+
+
+      <div class="mySlides">
+        <div class="fade">
+          <img src="image/mand1.jpg">
+        </div>
+        <div class="text">"Jeg elsker at arbejde med lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"</div>
+      </div>
+
+
+
+      <div class="mySlides">
+        <div class="fade">
+          <img src="image/mand2.jpg">
+        </div>
+        <div class="text">"Jeg elsker at arbejde med lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"</div>
+      </div>
+
+
+      <div class="mySlides">
+        <div class="fade">
+          <img src="image/mand3.jpg">
+        </div>
+        <div class="text">"Jeg elsker at arbejde med lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"</div>
+      </div>
+    </div>
+
+
+    <!-- PRIKKER -->
+    <div class="dot-container">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
     </div>
 
 
 
-    <!-- SLIDESHOW -->
-    <div class="over-container">
-        <div class="opacity-container"></div>
-        <div class="slideshow-container">
+    <!-- LOGIN -->
+    <div class="login">
+      <div class="login-triangle"></div>
+
+      <h2 class="login-header">Opret en profil</h2>
+
+      <form class="login-container">
+        <div class="navn-container">
+          <p><input type="fornavn" placeholder="Fornavn"></p>
+          <p><input type="efternavn" placeholder="Efternavn"></p>
+        </div>
+        <p><input type="email" placeholder="Email"></p>
+        <p><input type="password" placeholder="Password"></p>
 
 
-            <div class="mySlides">
-                <div class="fade">
-                    <img src="image/mand1.jpg">
-                </div>
-                <div class="text">"Jeg elsker at arbejde med lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"</div>
-            </div>
 
+        <!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
 
-
-            <div class="mySlides">
-                <div class="fade">
-                    <img src="image/mand2.jpg">
-                </div>
-                <div class="text">"Jeg elsker at arbejde med lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"</div>
-            </div>
-
-
-            <div class="mySlides">
-                <div class="fade">
-                    <img src="image/mand3.jpg">
-                </div>
-                <div class="text">"Jeg elsker at arbejde med lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod"</div>
-            </div>
+        <div class="custom-select">
+          <div class="land-padding">
+            <select id="countries" onchange="myFunction()">
+              <option value="0">Land</option>
+              <option value="1" class="showText">Australien</option>
+              <option value="2" class="showText">Belgien</option>
+              <option value="3" class="showText">Danmark</option>
+              <option value="4" class="showText">Frankrig</option>
+              <option value="5" class="showText">Holland</option>
+              <option value="6" class="showText">Jordan</option>
+              <option value="7" class="showText">Letland</option>
+              <option value="8" class="showText">Malta</option>
+              <option value="9" class="showText">Polen</option>
+              <option value="10" class="showText">Sverige</option>
+            </select>
+          </div>
         </div>
 
 
-        <!-- PRIKKER -->
-        <div class="dot-container">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
+        <p><input type="firma" placeholder="Firma"></p>
+        <div id="newpost">
+          <input type="checkbox" class="check-krav" name="check-krav" value="Bike">
+          <p class="check-krav-text">Ja, jeg ønsker at modtage målrettede oplysninger om nyheder, værktøjer, produkter, applikationer, arrangementer og kampagner fra Grundfos Holding A/S og Grundfos DK A/S (salgsselskab), Martin Bachs Vej 3, 8850,
+            Bjerringbro (samlet kaldet "Grundfos"), og jeg accepterer at blive kontaktet pr. e-mail, sms, telefon, push-besked eller brev vedrørende sådanne formål. Grundfos må analysere min adfærd og oprette en profil baseret på min brug af
+            forskellige Grundfos-websider, -applikationer eller -værktøjer med henblik på at sende mig målrettet information. Jeg giver samtykke til behandling af de personoplysninger, jeg har givet ovenfor, samt oprettelse og brug af en profil til
+            sådanne formål.</p>
         </div>
+        <p><input type="submit" value="Login"></p>
+        <p>Har du allerede en profil? Login <a href="">her</a></p>
 
-
-
-        <!-- LOGIN -->
-        <div class="login">
-            <div class="login-triangle"></div>
-
-            <h2 class="login-header">Opret en profil</h2>
-
-            <form class="login-container">
-                <div class="navn-container">
-                    <p><input type="fornavn" placeholder="Fornavn"></p>
-                    <p><input type="efternavn" placeholder="Efternavn"></p>
-                </div>
-                <p><input type="email" placeholder="Email"></p>
-                <p><input type="password" placeholder="Password"></p>
-
-
-
-                <!--surround the select box with a "custom-select" DIV element. Remember to set the width:-->
-
-                <div class="custom-select">
-                    <div class="land-padding">
-                        <select id="countries" onchange="myFunction()">
-    <option value="0">Land</option>
-    <option value="1" class="showText">Australien</option>
-    <option value="2" class="showText">Belgien</option>
-    <option value="3" class="showText">Danmark</option>
-    <option value="4" class="showText">Frankrig</option>
-    <option value="5" class="showText">Holland</option>
-    <option value="6" class="showText">Jordan</option>
-    <option value="7" class="showText">Letland</option>
-    <option value="8" class="showText">Malta</option>
-    <option value="9" class="showText">Polen</option>
-    <option value="10" class="showText">Sverige</option>
-  </select>
-                    </div>
-                </div>
-
-
-                <p><input type="firma" placeholder="Firma"></p>
-                <div id="newpost">
-                    <input type="checkbox" class="check-krav" name="check-krav" value="Bike">
-                    <p class="check-krav-text">Ja, jeg ønsker at modtage målrettede oplysninger om nyheder, værktøjer, produkter, applikationer, arrangementer og kampagner fra Grundfos Holding A/S og Grundfos DK A/S (salgsselskab), Martin Bachs Vej 3, 8850, Bjerringbro (samlet kaldet "Grundfos"), og jeg accepterer at blive kontaktet pr. e-mail, sms, telefon, push-besked eller brev vedrørende sådanne formål. Grundfos må analysere min adfærd og oprette en profil baseret på min brug af forskellige Grundfos-websider, -applikationer eller -værktøjer med henblik på at sende mig målrettet information. Jeg giver samtykke til behandling af de personoplysninger, jeg har givet ovenfor, samt oprettelse og brug af en profil til sådanne formål.</p>
-                </div>
-                <p><input type="submit" value="Login"></p>
-                <p>Har du allerede en profil? Login <a href="">her</a></p>
-
-            </form>
-        </div>
+      </form>
     </div>
+  </div>
 
 
-    <script src="js/script.js"></script>
+  <script src="js/script.js"></script>
 
 
 
