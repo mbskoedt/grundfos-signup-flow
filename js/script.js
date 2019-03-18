@@ -19,10 +19,10 @@ function showSlides() {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
-    setTimeout(showSlides, 20000); // Change image every 2 seconds
+    setTimeout(showSlides, 10000); // Change image every 2 seconds
 }
 
-/* "LAND"-DROP-DOWN */ 
+/* "LAND"-DROP-DOWN */
 
 var x, i, j, selElmnt, a, b, c;
 
@@ -30,24 +30,24 @@ var x, i, j, selElmnt, a, b, c;
 x = document.getElementsByClassName("custom-select");
 for (i = 0; i < x.length; i++) {
     selElmnt = x[i].getElementsByTagName("select")[0];
-    
+
     /*for each element, create a new DIV that will act as the selected item:*/
     a = document.createElement("DIV");
     a.setAttribute("class", "select-selected");
     a.innerHTML = selElmnt.options[selElmnt.selectedIndex].innerHTML;
     x[i].appendChild(a);
-    
+
     /*for each element, create a new DIV that will contain the option list:*/
     b = document.createElement("DIV");
     b.setAttribute("class", "select-items select-hide");
     for (j = 1; j < selElmnt.length; j++) {
-        
+
         /*for each option in the original select element,
         create a new DIV that will act as an option item:*/
         c = document.createElement("DIV");
         c.innerHTML = selElmnt.options[j].innerHTML;
         c.addEventListener("click", function (e) {
-            
+
             /*when an item is clicked, update the original select box,
             and the selected item:*/
             var y, i, k, s, h;
@@ -61,12 +61,12 @@ for (i = 0; i < x.length; i++) {
                     for (k = 0; k < y.length; k++) {
                         y[k].removeAttribute("class");
                     }
-                    
-                    /* teksten til det valgte land vises */ 
-                    
+
+                    /* teksten til det valgte land vises */
+
                     this.setAttribute("class", "same-as-selected");
                     console.log(this);
-                    
+
                     this.addEventListener('click', showhide());
 
                     function showhide() {
@@ -83,7 +83,7 @@ for (i = 0; i < x.length; i++) {
     }
     x[i].appendChild(b);
     a.addEventListener("click", function (e) {
-       
+
         /*when the select box is clicked, close any other select boxes, and open/close the current select box:*/
         e.stopPropagation();
         closeAllSelect(this);
@@ -93,7 +93,7 @@ for (i = 0; i < x.length; i++) {
 }
 
 function closeAllSelect(elmnt) {
-    
+
     /*a function that will close all select boxes in the document,
     except the current select box:*/
     var x, y, i, arrNo = [];
@@ -124,8 +124,3 @@ var div = document.getElementById('newpost');
 var elements = document.querySelectorAll('select-items div');
 
 console.log(elements);
-
-
-for (let element of elements) {
-
-}
