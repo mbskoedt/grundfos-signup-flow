@@ -125,46 +125,6 @@ let elements = document.querySelectorAll('select-items div');
 
 console.log(elements);
 
-
-/* popup */ 
-
-function openModal(){
-    
-    let modal = document.getElementById('simplemodal');
-    
-    modal.style.display = 'block';
-}
-
-function closeModal() {
-    
-   let modal = document.getElementById('simplemodal');
-    
-    modal.style.display ='none';
-    
-    
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // POP UP NUDGING
 
 // Get the modal
