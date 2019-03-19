@@ -181,8 +181,5 @@ icon.onclick = function() {
     icon.className = 'fa fa-eye-slash';
     inputPass.className = 'active';
   }
-<<<<<<< HEAD
 
-=======
->>>>>>> 235dbb891af4895dfe232ad51d23385b11a29409
 }
