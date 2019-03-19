@@ -13,6 +13,10 @@ body {
   font-family: Verdana, sans-serif;
 }
 
+h3 {
+  font-size: 35px;
+}
+
 .top-bar {
   background-color: #0A2C4A;
   width: 100vw;
@@ -330,24 +334,30 @@ body {
 }
 
 /* NUDGING BANNER */
+
+.nav-bar-img {
+  width: 100vw;
+  height: auto;
+  z-index: 10;
+}
+
 .nudging-banner {
   position: relative;
-  width: 92%;
-  height: 80vh;
+  width: 100%;
+  height: auto;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 6%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .blue-overlay {
   position: absolute;
-  width: 100%;
-  height: 96%;
+  width: 90%;
+  height: 100%;
   background-color: #0a2c4a;
   opacity: 0.5;
   z-index: 1;
@@ -355,7 +365,7 @@ body {
 }
 
 .nudging-img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -363,10 +373,12 @@ body {
   position: absolute;
   z-index: 2;
   font-size: 1.5rem;
+  margin-left: -15%;
 }
 
 .nudging-banner-btns {
   margin-top: 5vh;
+  display: flex;
 }
 
 #opret {
@@ -379,6 +391,7 @@ body {
   background: #0A2C4A;
   color: #fff;
   border-style: none;
+  margin-left: 1vw;
 }
 
 .nudging-banner {
@@ -408,6 +421,7 @@ body {
   padding: 5%;
   cursor: pointer;
   width: 7vw;
+  height: 4vh;
 }
 
 #verificer {
