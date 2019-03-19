@@ -325,82 +325,17 @@ h3 {
   justify-content: flex-start;
 }
 
+.betingelser {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .check-krav {
   margin-top: 12px;
 }
 
 .check-krav-text {
   font-size: 11.5px;
-}
-
-/*///////pop up /////*/
-.button {
-  background-color: gray;
-  padding: 1em 2em;
-  color: white;
-  border: 0;
-}
-
-.button:hover {
-  background: #333;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-  background-color: #f4f4f4;
-  margin: 20% auto;
-  padding: 20px;
-  width: 70%;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgb(0, 0, 0, 0.2);
-}
-
-.closebtn {
-  color: #ccc;
-  float: right;
-  font-size: 30px;
-}
-
-.closebtn:hover, .closebtn:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.modal h1 {
-  width: 40%;
-}
-
-.hvorfor {
-  width: 40%;
-}
-
-.col1 {
-  margin-left: 5%;
-}
-
-.col2 {
-  width: 40%;
-  font-size: 1.2vw;
-  margin-left: 50%;
-  position: relative;
-  top: -160px;
-}
-
-.jobtitel {
-  width: 70%;
-  height: 30px;
-  font-size: 1.1vw;
 }
 
 /* NUDGING BANNER */
