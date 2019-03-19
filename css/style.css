@@ -310,12 +310,6 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< HEAD
-/* STYLING TIL VISNING AF INFO-TEKST */
-=======
-
-=======
->>>>>>> f9a261dfd42ca60d24cd7a1425df4337fa44151f
 /* STYLING TIL VISNING AF INFO-TEKST */
 #newpost {
   display: none;
@@ -323,11 +317,6 @@ body {
 
 #newpost.visible {
   display: block;
-<<<<<<< HEAD
-=======
-  display: flex;
-  justify-content: flex-start;
->>>>>>> f9a261dfd42ca60d24cd7a1425df4337fa44151f
   display: flex;
   justify-content: flex-start;
 }
@@ -341,13 +330,13 @@ body {
 }
 
 /* NUDGING BANNER */
-<<<<<<< HEAD
 .nudging-banner {
   position: relative;
   width: 92%;
   height: 80vh;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 6%;
@@ -373,7 +362,6 @@ body {
 .nudging-banner-text {
   position: absolute;
   z-index: 2;
-  margin-left: -15vw;
   font-size: 1.5rem;
 }
 
@@ -393,8 +381,6 @@ body {
   border-style: none;
 }
 
-=======
->>>>>>> f9a261dfd42ca60d24cd7a1425df4337fa44151f
 .nudging-banner {
   color: #FFFFFF;
 }
@@ -414,7 +400,6 @@ body {
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .nudging-bar p {
   font-size: 1rem;
 }
@@ -430,13 +415,4 @@ body {
   border-color: white;
   color: #fff;
   margin-left: 2vw;
-=======
-.nudging-banner input[type="submit"] {
-  background: transparent;
-  border-color: white;
-  color: #fff;
-  cursor: pointer;
-  padding: 5px;
-  margin-left: 20px;
->>>>>>> f9a261dfd42ca60d24cd7a1425df4337fa44151f
 }
