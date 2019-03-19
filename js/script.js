@@ -1,12 +1,12 @@
 /* TI SLIDESHOW */
 
-var slideIndex = 0;
+let slideIndex = 0;
 showSlides();
 
 function showSlides() {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
@@ -24,7 +24,7 @@ function showSlides() {
 
 /* "LAND"-DROP-DOWN */
 
-var x, i, j, selElmnt, a, b, c;
+let x, i, j, selElmnt, a, b, c;
 
 /*look for any elements with the class "custom-select":*/
 x = document.getElementsByClassName("custom-select");
@@ -50,7 +50,7 @@ for (i = 0; i < x.length; i++) {
 
             /*when an item is clicked, update the original select box,
             and the selected item:*/
-            var y, i, k, s, h;
+            let y, i, k, s, h;
             s = this.parentNode.parentNode.getElementsByTagName("select")[0];
             h = this.parentNode.previousSibling;
             for (i = 0; i < s.length; i++) {
@@ -96,7 +96,7 @@ function closeAllSelect(elmnt) {
 
     /*a function that will close all select boxes in the document,
     except the current select box:*/
-    var x, y, i, arrNo = [];
+    let x, y, i, arrNo = [];
     x = document.getElementsByClassName("select-items");
     y = document.getElementsByClassName("select-selected");
     for (i = 0; i < y.length; i++) {
@@ -120,7 +120,7 @@ document.addEventListener("click", closeAllSelect);
 
 /* VISER TEKST */
 
-var div = document.getElementById('newpost');
-var elements = document.querySelectorAll('select-items div');
+let div = document.getElementById('newpost');
+let elements = document.querySelectorAll('select-items div');
 
 console.log(elements);
