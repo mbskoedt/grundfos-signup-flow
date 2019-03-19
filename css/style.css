@@ -13,6 +13,10 @@ body {
   font-family: Verdana, sans-serif;
 }
 
+h3 {
+  font-size: 35px;
+}
+
 .top-bar {
   background-color: #0A2C4A;
   width: 100vw;
@@ -310,12 +314,6 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-<<<<<<< HEAD
-/* STYLING TIL VISNING AF INFO-TEKST */
-=======
-
-=======
->>>>>>> f9a261dfd42ca60d24cd7a1425df4337fa44151f
 /* STYLING TIL VISNING AF INFO-TEKST */
 #newpost {
   display: none;
@@ -323,11 +321,6 @@ body {
 
 #newpost.visible {
   display: block;
-<<<<<<< HEAD
-=======
-  display: flex;
-  justify-content: flex-start;
->>>>>>> f9a261dfd42ca60d24cd7a1425df4337fa44151f
   display: flex;
   justify-content: flex-start;
 }
@@ -341,24 +334,30 @@ body {
 }
 
 /* NUDGING BANNER */
-<<<<<<< HEAD
+
+.nav-bar-img {
+  width: 100vw;
+  height: auto;
+  z-index: 10;
+}
+
 .nudging-banner {
   position: relative;
-  width: 92%;
-  height: 80vh;
+  width: 100%;
+  height: auto;
   overflow: hidden;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 6%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .blue-overlay {
   position: absolute;
-  width: 100%;
-  height: 96%;
+  width: 90%;
+  height: 100%;
   background-color: #0a2c4a;
   opacity: 0.5;
   z-index: 1;
@@ -366,19 +365,20 @@ body {
 }
 
 .nudging-img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
 .nudging-banner-text {
   position: absolute;
   z-index: 2;
-  margin-left: -15vw;
   font-size: 1.5rem;
+  margin-left: -15%;
 }
 
 .nudging-banner-btns {
   margin-top: 5vh;
+  display: flex;
 }
 
 #opret {
@@ -391,10 +391,9 @@ body {
   background: #0A2C4A;
   color: #fff;
   border-style: none;
+  margin-left: 1vw;
 }
 
-=======
->>>>>>> f9a261dfd42ca60d24cd7a1425df4337fa44151f
 .nudging-banner {
   color: #FFFFFF;
 }
@@ -414,7 +413,6 @@ body {
   justify-content: center;
 }
 
-<<<<<<< HEAD
 .nudging-bar p {
   font-size: 1rem;
 }
@@ -423,6 +421,7 @@ body {
   padding: 5%;
   cursor: pointer;
   width: 7vw;
+  height: 4vh;
 }
 
 #verificer {
@@ -430,13 +429,4 @@ body {
   border-color: white;
   color: #fff;
   margin-left: 2vw;
-=======
-.nudging-banner input[type="submit"] {
-  background: transparent;
-  border-color: white;
-  color: #fff;
-  cursor: pointer;
-  padding: 5px;
-  margin-left: 20px;
->>>>>>> f9a261dfd42ca60d24cd7a1425df4337fa44151f
 }
