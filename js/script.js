@@ -178,6 +178,10 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+<<<<<<< HEAD
+}
+=======
+>>>>>>> 235dbb891af4895dfe232ad51d23385b11a29409
 
 // Vis el. skjul password
 let inputPass = document.getElementById('pass'),
@@ -195,4 +199,8 @@ icon.onclick = function() {
     icon.className = 'fa fa-eye-slash';
     inputPass.className = 'active';
   }
+<<<<<<< HEAD
+
+=======
+>>>>>>> 235dbb891af4895dfe232ad51d23385b11a29409
 }
