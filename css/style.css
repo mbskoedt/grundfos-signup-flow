@@ -380,7 +380,7 @@ h3 {
 .closebtn{
 
     color:#ccc;
-    float: right;
+    margin-left: 90%;
     font-size: 30px;
 
 }
