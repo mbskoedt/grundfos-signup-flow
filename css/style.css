@@ -346,7 +346,7 @@ h3 {
     padding:1em 2em;
     color:white;
     border:0;
-    
+
 }
 
 .button:hover{
@@ -374,11 +374,11 @@ h3 {
 }
 
 .closebtn{
-    
+
     color:#ccc;
     float: right;
     font-size: 30px;
-    
+
 }
 
 .closebtn:hover, .closebtn:focus{
@@ -389,7 +389,7 @@ h3 {
 
 
 .modal h1{
-    width:40%; 
+    width:40%;
 }
 
 .hvorfor{
@@ -403,17 +403,19 @@ h3 {
 .col2{
     width:40%;
     font-size:1.2vw;
-    
+
     margin-left:50%;
     position:relative;
     top:-170px;  
+
+
 }
 
 .jobtitel{
     width:70%;
     height:30px;
     font-size: 1.1vw;
-    
+
 }
 
 
@@ -519,6 +521,7 @@ h3 {
   margin-left: 2vw;
 }
 
+
 /* POP UP NUDGING */
 
 /* The Modal (background) */
@@ -611,3 +614,4 @@ h3 {
  .progressbar li.active + li:after {
      background-color: #55b776;
  }
+
