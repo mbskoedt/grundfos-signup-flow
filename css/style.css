@@ -14,18 +14,18 @@ body {
 }
 
 .top-bar {
-    background-color: #0A2C4A;
-    width: 100vw;
-    height: 10vh;
-    z-index: 200;
-    position: fixed;
+  background-color: #0A2C4A;
+  width: 100vw;
+  height: 10vh;
+  z-index: 200;
+  position: fixed;
 }
 
 .logo {
-    width: 20vw;
-    margin-top: 2.5vh;
-    padding: 15px;
-    margin-left: 50px;
+  width: 20vw;
+  margin-top: 2.5vh;
+  padding: 15px;
+  margin-left: 50px;
 }
 
 .mySlides {
@@ -224,8 +224,8 @@ body {
 
 /* FLEX AF FORNAVN & EFTERNAVN */
 .navn-container {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 /* STYLING AF "LAND"-DROP-DOWN */
@@ -240,20 +240,20 @@ body {
 }
 
 .custom-select {
-    background: #fff;
-    border-color: #bbb;
-    border-style: solid;
-    color: #555;
-    border-width: 1px;
-    box-sizing: border-box;
-    display: block;
-    border-width: 1px;
-    border-style: solid;
-    padding: 16px;
-    outline: 0;
-    font-family: inherit;
-    font-size: 0.95em;
-    margin: 12px;
+  background: #fff;
+  border-color: #bbb;
+  border-style: solid;
+  color: #555;
+  border-width: 1px;
+  box-sizing: border-box;
+  display: block;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  margin: 12px;
 }
 
 /*style the arrow inside the select element:*/
@@ -310,11 +310,6 @@ body {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
-
-
-/* STYLING TIL VISNING AF INFO-TEKST */
-
-=======
 /* STYLING TIL VISNING AF INFO-TEKST */
 #newpost {
   display: none;
@@ -322,8 +317,8 @@ body {
 
 #newpost.visible {
   display: block;
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
   display: flex;
   justify-content: flex-start;
 }
@@ -337,7 +332,6 @@ body {
 }
 
 /* NUDGING BANNER */
-
 .nudging-banner {
   position: fixed;
   left: 0;
@@ -352,10 +346,10 @@ body {
 }
 
 .nudging-banner input[type="submit"] {
-    background: transparent;
-    border-color: white;
-    color: #fff;
-    cursor: pointer;
-    padding: 5px;
-    margin-left: 20px;
+  background: transparent;
+  border-color: white;
+  color: #fff;
+  cursor: pointer;
+  padding: 5px;
+  margin-left: 20px;
 }
