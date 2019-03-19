@@ -418,11 +418,11 @@ h3 {
 }
 
 #bgg{
-    background-image: url(/image/Baggrund.jpg);
+    background-image: url(../image/Baggrund.jpg);
 }
 
 #modcontent{
-    background-image: url(/image/logobaggrund.png);
+    background-image: url(../image/logobaggrund.png);
     background-size: cover;
 }
 
