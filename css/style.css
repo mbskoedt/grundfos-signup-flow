@@ -210,21 +210,21 @@ h3 {
   border-color: #888;
 }
 
-.login input[type="submit"] {
+.tilpop  {
   background: #0068B4;
-  border-color: transparent;
   color: #fff;
   cursor: pointer;
+    text-align: center;
+    display: block;
+    padding-top:10px;
+    padding-bottom: 10px;
+    width:95%;
+    margin-left: 2.5%;
+    
+
 }
 
-.login input[type="submit"]:hover {
-  background: #17c;
-}
 
-/* Buttons' focus effect */
-.login input[type="submit"]:focus {
-  border-color: #05a;
-}
 
 /* FLEX AF FORNAVN & EFTERNAVN */
 .navn-container {
@@ -343,6 +343,9 @@ h3 {
 }
 
 /*///////pop up /////*/
+
+
+.progressesbar
 
 .button{
     background-color: gray;
