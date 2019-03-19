@@ -330,6 +330,10 @@ h3 {
   justify-content: flex-start;
 }
 
+.betingelser input {
+  width: 11% !important;
+}
+
 .check-krav {
   margin-top: 12px;
 }
@@ -337,7 +341,6 @@ h3 {
 .check-krav-text {
   font-size: 11.5px;
 }
-
 
 
 /*///////pop up /////*/
@@ -407,6 +410,8 @@ h3 {
 
     margin-left:50%;
     position:relative;
+
+
     top:-170px;  
 
 
@@ -419,15 +424,10 @@ h3 {
 
 }
 
+
 #bgg{
     background-image: url(/image/Baggrund.jpg);
 }
-
-
-
-
-
-
 
 
 /* NUDGING BANNER */
@@ -528,6 +528,7 @@ h3 {
 }
 
 
+
 /* Øje til at vise kode */
 #eye {
   float: right;
@@ -589,5 +590,6 @@ h3 {
  .progressbar li.active + li:after {
      background-color: #55b776;
  }
+
 
 
