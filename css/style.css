@@ -429,6 +429,11 @@ h3 {
     background-image: url(/image/Baggrund.jpg);
 }
 
+#modcontent{
+    background-image: url(/image/logobaggrund.png);
+    background-size: cover;
+}
+
 
 /* NUDGING BANNER */
 .nav-bar-img {
