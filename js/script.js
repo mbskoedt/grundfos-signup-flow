@@ -124,3 +124,22 @@ let div = document.getElementById('newpost');
 let elements = document.querySelectorAll('select-items div');
 
 console.log(elements);
+
+// Vis el. skjul password
+let inputPass = document.getElementById('pass'),
+  icon = document.getElementById('icon');
+
+icon.onclick = function() {
+
+  if (inputPass.className == 'active') {
+    inputPass.setAttribute('type', 'text');
+    icon.className = 'fa fa-eye';
+    inputPass.className = '';
+
+  } else {
+    inputPass.setAttribute('type', 'password');
+    icon.className = 'fa fa-eye-slash';
+    inputPass.className = 'active';
+  }
+
+}

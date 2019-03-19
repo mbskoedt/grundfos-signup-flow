@@ -334,7 +334,6 @@ h3 {
 }
 
 /* NUDGING BANNER */
-
 .nav-bar-img {
   width: 100vw;
   height: auto;
@@ -429,4 +428,11 @@ h3 {
   border-color: white;
   color: #fff;
   margin-left: 2vw;
+}
+
+i {
+  float: right;
+  cursor: pointer;
+  margin-top: -33px;
+  margin-right: 10px;
 }
