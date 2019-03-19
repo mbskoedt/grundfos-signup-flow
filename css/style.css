@@ -430,7 +430,9 @@ h3 {
   margin-left: 2vw;
 }
 
-i {
+/* Øje til at vise kode */
+
+#eye {
   float: right;
   cursor: pointer;
   margin-top: -33px;

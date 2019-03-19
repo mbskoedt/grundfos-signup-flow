@@ -127,7 +127,7 @@ console.log(elements);
 
 // Vis el. skjul password
 let inputPass = document.getElementById('pass'),
-  icon = document.getElementById('icon');
+  icon = document.getElementById('eye');
 
 icon.onclick = function() {
 
