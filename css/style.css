@@ -1,206 +1,188 @@
-/*  background-image: url("../image/Baggrund.jpg"); */
+#bg {
+  background-image: url("../image/Baggrund.jpg");
+}
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 
 body {
-    margin: 0;
-    background-position: 50% 0;
-    background-repeat: no-repeat;
-    font-family: Verdana, sans-serif;
+  margin: 0;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  font-family: Verdana, sans-serif;
 }
 
-
 .top-bar {
-    background-color: #0A2C4A;
-    width: 100vw;
-    height: 10vh; 
-    z-index: 200; 
-    position: fixed; 
+  background-color: #0A2C4A;
+  width: 100vw;
+  height: 10vh;
+  z-index: 200;
+  position: fixed;
 }
 
 .logo {
-    width: 20vw; 
-    margin-top: 2.5vh; 
-    padding: 15px; 
-    margin-left: 50px; 
+  width: 20vw;
+  margin-top: 2.5vh;
+  padding: 15px;
+  margin-left: 50px;
 }
 
 .mySlides {
-    display: none;
+  display: none;
 }
 
 /* Slideshow container */
-
 .slideshow-container {
-    max-width: auto;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-    margin: auto;
+  max-width: auto;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
 }
 
 .slideshow-container img {
-    width: 100vw;
-    height: auto;
-    position: relative;
+  width: 100vw;
+  height: auto;
+  position: relative;
 }
 
 .opacity-container {
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    left: 0;
-    background-color: #0a2c4a;
-    opacity: 0.5;
-    z-index: 1;
-    display: block;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  background-color: #0a2c4a;
+  opacity: 0.5;
+  z-index: 1;
+  display: block;
 }
-
 
 /* Caption text */
-
 .text {
-    color: #f2f2f2;
-    font-size: 2vw;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 50vh;
-    left: 10vw;
-    width: 40%;
-    z-index: 1;
+  color: #f2f2f2;
+  font-size: 2vw;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 50vh;
+  left: 10vw;
+  width: 40%;
+  z-index: 1;
 }
-
-
 
 /* The dots/bullets/indicators */
-
 .over-container {
-    position: relative;
+  position: relative;
 }
-
 
 .dot-container {
-    display: flex;
-    justify-content: center;
-    z-index: 1000;
-    margin-left: -45%;
-    margin-top: -5%;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  margin-left: -45%;
+  margin-top: -5%;
 }
-
-
 
 .dot {
-    height: 20px;
-    width: 20px;
-    margin: 0 5px;
-    border-color: white;
-    border-style: solid;
-    border-radius: 50%;
-    display: block;
-    transition: background-color 0.6s ease;
-    z-index: 2;
+  height: 20px;
+  width: 20px;
+  margin: 0 5px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 50%;
+  display: block;
+  transition: background-color 0.6s ease;
+  z-index: 2;
 }
 
-
 .active {
-    background-color: white;
+  background-color: white;
 }
 
 /* Fading animation */
-
 .fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
-
 
 @-webkit-keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
+  from {
+    opacity: .4
+  }
 
+  to {
+    opacity: 1
+  }
+}
 
 @keyframes fade {
-    from {
-        opacity: .4
-    }
-    to {
-        opacity: 1
-    }
-}
+  from {
+    opacity: .4
+  }
 
+  to {
+    opacity: 1
+  }
+}
 
 /* On smaller screens, decrease text size */
-
 @media only screen and (max-width: 300px) {
-    .text {
-        font-size: 11px
-    }
+  .text {
+    font-size: 11px
+  }
 }
 
-
 /* STYLING AF LOGIN*/
-
 .login {
-    width: 28vw;
-    margin: 16px auto;
-    font-size: 16px;
-    position: absolute;
-    margin-top: -78vh;
-    margin-left: 65vw;
-    z-index: 2;
+  width: 28vw;
+  margin: 16px auto;
+  font-size: 16px;
+  position: absolute;
+  margin-top: -78vh;
+  margin-left: 65vw;
+  z-index: 2;
 }
 
 /* Reset top and bottom margins from certain elements */
-
 .login-header,
 .login p {
-    margin-top: 0;
-    margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .login-header {
-    background: #0068B4;
-    padding: 20px;
-    font-size: 1.4em;
-    font-weight: normal;
-    text-align: center;
-    text-transform: uppercase;
-    color: #fff;
+  background: #0068B4;
+  padding: 20px;
+  font-size: 1.4em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .login-container {
-    background: #ebebeb;
-    padding: 12px;
-
+  background: #ebebeb;
+  padding: 12px;
 }
 
 /* Every row inside .login-container is defined with p tags */
-
 .login p {
-    padding: 12px;
+  padding: 12px;
 }
 
 .login input {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    border-width: 1px;
-    border-style: solid;
-    padding: 16px;
-    outline: 0;
-    font-family: inherit;
-    font-size: 0.95em;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
 }
 
 .login input[type="fornavn"],
@@ -209,160 +191,140 @@ body {
 .login input[type="password"],
 .login input[type="land"],
 .login input[type="firma"] {
-    background: #fff;
-    border-color: #bbb;
-    color: #555;
+  background: #fff;
+  border-color: #bbb;
+  color: #555;
 }
 
-
 /* Text fields' focus effect */
-
 .login input[type="fornavn"]:focus,
 .login input[type="eftenavn"]:focus,
 .login input[type="email"]:focus,
 .login input[type="password"]:focus,
 .login input[type="land"]:focus,
 .login input[type="firma"]:focus {
-    border-color: #888;
+  border-color: #888;
 }
 
 .login input[type="submit"] {
-    background: #0068B4;
-    border-color: transparent;
-    color: #fff;
-    cursor: pointer;
+  background: #0068B4;
+  border-color: transparent;
+  color: #fff;
+  cursor: pointer;
 }
 
 .login input[type="submit"]:hover {
-    background: #17c;
+  background: #17c;
 }
 
 /* Buttons' focus effect */
-
 .login input[type="submit"]:focus {
-    border-color: #05a;
+  border-color: #05a;
 }
-
-
 
 /* FLEX AF FORNAVN & EFTERNAVN */
-
 .navn-container {
-    display: flex;
-    flex-direction: row;    
+  display: flex;
+  flex-direction: row;
 }
 
-
-
 /* STYLING AF "LAND"-DROP-DOWN */
-
 /*the container must be positioned relative:*/
-
 .custom-select {
-    position: relative;
+  position: relative;
 }
 
 .custom-select select {
-    display: none;
-    /*hide original SELECT element:*/
+  display: none;
+  /*hide original SELECT element:*/
 }
-
 
 .custom-select {
-    background: #fff;
-    border-color: #bbb;
-    border-style: solid;
-    color: #555;
-    border-width: 1px;
-    box-sizing: border-box;
-    display: block;
-    border-width: 1px;
-    border-style: solid;
-    padding: 16px;
-    outline: 0;
-    font-family: inherit;
-    font-size: 0.95em;
-    margin: 12px; 
+  background: #fff;
+  border-color: #bbb;
+  border-style: solid;
+  color: #555;
+  border-width: 1px;
+  box-sizing: border-box;
+  display: block;
+  border-width: 1px;
+  border-style: solid;
+  padding: 16px;
+  outline: 0;
+  font-family: inherit;
+  font-size: 0.95em;
+  margin: 12px;
 }
 
-
 /*style the arrow inside the select element:*/
-
 .select-selected:after {
-    position: absolute;
-    content: "";
-    top: 20px;
-    right: 10px;
-    width: 0;
-    height: 0;
-    border-color: #0068B4 transparent transparent transparent;
-    border-style: solid;
+  position: absolute;
+  content: "";
+  top: 20px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border-color: #0068B4 transparent transparent transparent;
+  border-style: solid;
 }
 
 /*point the arrow upwards when the select box is open (active):*/
-
 .select-selected.select-arrow-active:after {
-    border-color: transparent transparent blue transparent;
-    top: 15px;
-    border-style: solid;
+  border-color: transparent transparent blue transparent;
+  top: 15px;
+  border-style: solid;
 }
 
 /*style the items (options), including the selected item:*/
-
 .select-items div,
 .select-selected {
-    color: #555;
-    cursor: pointer;
-    user-select: none;
+  color: #555;
+  cursor: pointer;
+  user-select: none;
 }
 
 .select-items div {
-    padding: 10px;
-    margin-left: 20px;
+  padding: 10px;
+  margin-left: 20px;
 }
 
 /*style items (options):*/
-
 .select-items {
-    position: absolute;
-    background-color: white;
-    top: 100%;
-    left: 0;
-    right: 0;
-    border-color: #555;
-    border-style: solid;
-    border-width: 1px;
+  position: absolute;
+  background-color: white;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border-color: #555;
+  border-style: solid;
+  border-width: 1px;
 }
 
 /*hide the items when the select box is closed:*/
-
 .select-hide {
-    display: none;
+  display: none;
 }
 
 .select-items div:hover,
 .same-as-selected {
-    background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
-
-
-/* STYLING TIL VISNING AF INFO-TEKST */ 
-
+/* STYLING TIL VISNING AF INFO-TEKST */
 #newpost {
   display: none;
 }
 
 #newpost.visible {
   display: block;
-    display: flex;
-    justify-content: flex-start; 
+  display: flex;
+  justify-content: flex-start;
 }
 
 .check-krav {
-    margin-top: 12px;
+  margin-top: 12px;
 }
 
 .check-krav-text {
-    font-size: 11.5px;
+  font-size: 11.5px;
 }

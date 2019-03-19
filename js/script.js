@@ -124,11 +124,3 @@ let div = document.getElementById('newpost');
 let elements = document.querySelectorAll('select-items div');
 
 console.log(elements);
-<<<<<<< HEAD
-=======
-
-
-for (let element of elements) {
-
-}
->>>>>>> 2606edb91b373e953b74de09fa364b2aa7da56e5
