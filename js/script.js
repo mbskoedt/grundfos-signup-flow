@@ -148,23 +148,6 @@ function closeModal() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // POP UP NUDGING
 
 // Get the modal
