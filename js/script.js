@@ -125,11 +125,6 @@ let elements = document.querySelectorAll('select-items div');
 
 console.log(elements);
 
-$(document).ready(function() {
-  $("input[type=password]").mobilePassword();
-});
-
-
 // POP UP NUDGING
 
 // Get the modal
