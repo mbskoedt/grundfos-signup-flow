@@ -125,6 +125,7 @@ let elements = document.querySelectorAll('select-items div');
 
 console.log(elements);
 
+<<<<<<< HEAD
 $(document).ready(function() {
   $("input[type=password]").mobilePassword();
 });
@@ -160,4 +161,23 @@ window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
   }
+=======
+// Vis el. skjul password
+let inputPass = document.getElementById('pass'),
+  icon = document.getElementById('icon');
+
+icon.onclick = function() {
+
+  if (inputPass.className == 'active') {
+    inputPass.setAttribute('type', 'text');
+    icon.className = 'fa fa-eye';
+    inputPass.className = '';
+
+  } else {
+    inputPass.setAttribute('type', 'password');
+    icon.className = 'fa fa-eye-slash';
+    inputPass.className = 'active';
+  }
+
+>>>>>>> f8b28432173a638f1dfa6ada23408dc93d12293f
 }
