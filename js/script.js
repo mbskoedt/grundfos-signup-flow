@@ -125,9 +125,27 @@ let elements = document.querySelectorAll('select-items div');
 
 console.log(elements);
 
-$(document).ready(function() {
-  $("input[type=password]").mobilePassword();
-});
+
+/* popup */ 
+
+function openModal(){
+    
+    let modal = document.getElementById('simplemodal');
+    
+    modal.style.display = 'block';
+}
+
+function closeModal() {
+    
+   let modal = document.getElementById('simplemodal');
+    
+    modal.style.display ='none';
+    
+    
+}
+
+
+
 
 // Vis el. skjul password
 let inputPass = document.getElementById('pass'),
