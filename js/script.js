@@ -125,6 +125,43 @@ let elements = document.querySelectorAll('select-items div');
 
 console.log(elements);
 
+<<<<<<< HEAD
+$(document).ready(function() {
+  $("input[type=password]").mobilePassword();
+});
+
+
+// POP UP NUDGING
+
+// Get the modal
+let modal = document.getElementById('myModal');
+
+// Get the button that opens the modal
+let btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+let span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+function openModal() {
+  let modal = document.getElementById('myModal');
+  modal.style.display = "block";
+  console.log(123);
+}
+
+// When the user clicks on <span> (x), close the modal
+function close() {
+  let modal = document.getElementById('myModal');
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  let modal = document.getElementById('myModal');
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+=======
 // Vis el. skjul password
 let inputPass = document.getElementById('pass'),
   icon = document.getElementById('eye');
@@ -142,4 +179,5 @@ icon.onclick = function() {
     inputPass.className = 'active';
   }
 
+>>>>>>> f8b28432173a638f1dfa6ada23408dc93d12293f
 }
