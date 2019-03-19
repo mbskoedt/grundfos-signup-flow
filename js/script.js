@@ -126,22 +126,22 @@ let elements = document.querySelectorAll('select-items div');
 console.log(elements);
 
 
-/* popup */ 
+/* popup */
 
 function openModal(){
-    
+
     let modal = document.getElementById('simplemodal');
-    
+
     modal.style.display = 'block';
 }
 
 function closeModal() {
-    
+
    let modal = document.getElementById('simplemodal');
-    
+
     modal.style.display ='none';
-    
-    
+
+
 }
 
 

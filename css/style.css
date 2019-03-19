@@ -325,6 +325,11 @@ h3 {
   justify-content: flex-start;
 }
 
+.betingelser {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .check-krav {
   margin-top: 12px;
 }
@@ -332,6 +337,7 @@ h3 {
 .check-krav-text {
   font-size: 11.5px;
 }
+
 
 /*///////pop up /////*/
 
@@ -409,6 +415,7 @@ h3 {
     font-size: 1.1vw;
     
 }
+
 
 
 
@@ -512,11 +519,95 @@ h3 {
   margin-left: 2vw;
 }
 
-/* Øje til at vise kode */
+/* POP UP NUDGING */
 
-#eye {
-  float: right;
-  cursor: pointer;
-  margin-top: -33px;
-  margin-right: 10px;
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 999; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.progress-container {
+     width: 600px;
+     margin: 100px auto;
+ }
+ .progressbar {
+     counter-reset: step;
+ }
+ .progressbar li {
+     list-style-type: none;
+     width: 25%;
+     float: left;
+     font-size: 12px;
+     position: relative;
+     text-align: center;
+     text-transform: uppercase;
+     color: #7d7d7d;
+ }
+ .progressbar li:before {
+     width: 30px;
+     height: 30px;
+     content: counter(step);
+     counter-increment: step;
+     line-height: 30px;
+     border: 2px solid #7d7d7d;
+     display: block;
+     text-align: center;
+     margin: 0 auto 10px auto;
+     border-radius: 50%;
+     background-color: white;
+ }
+ .progressbar li:after {
+     width: 100%;
+     height: 2px;
+     content: '';
+     position: absolute;
+     background-color: #7d7d7d;
+     top: 15px;
+     left: -50%;
+     z-index: -1;
+ }
+ .progressbar li:first-child:after {
+     content: none;
+ }
+ .progressbar li.active {
+     color: green;
+ }
+ .progressbar li.active:before {
+     border-color: #55b776;
+ }
+ .progressbar li.active + li:after {
+     background-color: #55b776;
+ }

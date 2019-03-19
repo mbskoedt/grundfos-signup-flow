@@ -8,10 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body id="bg">
-
-
-
+<body>
   <article class="nudging-banner">
     <img src="image/nav-bar-img.jpg" class="nav-bar-img">
     <section class="nudging-banner-text">
@@ -38,7 +35,30 @@
     <img src="image/nudging-banner-mand.jpg" class="nudging-img">
   </article>
 
-  <section class="nudging-bar">
+
+  <!-- modal knap -->
+
+  <button id="myBtn" onclick="openModal()">Open Modal</button>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close" onclick="close()">&times;</span>
+      <div class="progress-container">
+        <ul class="progressbar">
+          <li class="active">login</li>
+          <li>choose interest</li>
+          <li>add friends</li>
+          <li>View map</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+  <section class=" nudging-bar">
     <p>Du har 7 dage til at verificere din konto </p>
     <a href="">
       <button id="verificer" class="btn">VERIFICER NU </button>
