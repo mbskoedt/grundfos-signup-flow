@@ -124,7 +124,3 @@ let div = document.getElementById('newpost');
 let elements = document.querySelectorAll('select-items div');
 
 console.log(elements);
-
-$(document).ready(function() {
-  $("input[type=password]").mobilePassword();
-});
